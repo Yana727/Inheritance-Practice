@@ -15,7 +15,7 @@ namespace Inheritance_Practice
      
       public override void Transport()
       {
-       Console.WriteLine($"Hello, {Recipient}, {body}. This messge is from {SmsProvider}. The subjext is {Subject}"); 
+       Console.WriteLine($"Hello, {Recipient}, {Body}. This messge is from {SmsProvider}. The subjext is {Subject}"); 
       
      }
     }
